@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="4.0">
+
+    <display-name>OnlineMedicineStore</display-name>
+    <session-config>
+    <session-timeout>15</session-timeout> <!-- minutes -->
+</session-config>
+
+</web-app>

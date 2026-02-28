@@ -1,0 +1,126 @@
+/* GLOBAL */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* NAVBAR */
+.custom-navbar {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+}
+
+/* HERO SECTION */
+.hero-section {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(
+        to right,
+        rgba(0,123,255,0.95),
+        rgba(0,198,255,0.9)
+    );
+    color: white;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.hero-title span {
+    color: #ffe600;
+}
+
+.hero-text {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    opacity: 0.95;
+}
+
+/* HERO CARD */
+.hero-card {
+    background: white;
+    color: #333;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.hero-card h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.hero-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hero-card ul li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #1c1c1c;
+    color: #ccc;
+    padding: 15px 0;
+}
+/* LOGIN PAGE */
+.login-bg {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+}
+
+.login-card {
+    background: #fff;
+    padding: 35px;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 420px;
+}
+
+.login-card label {
+    font-weight: 500;
+}
+
+.input-group-text {
+    background-color: #f1f3f5;
+}
+
+.login-card button {
+    font-weight: 500;
+}
+/* DASHBOARD */
+.dashboard-bg {
+    background-color: #f4f6f9;
+    min-height: 100vh;
+}
+
+.dashboard-tile {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}
+
+.dashboard-tile i {
+    font-size: 2.8rem;
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+.dashboard-tile h5 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.dashboard-tile p {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.dashboard-tile:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
